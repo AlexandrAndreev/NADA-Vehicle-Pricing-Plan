@@ -1,8 +1,7 @@
 ﻿using NADAVehiclePricing;
 using NADAVehiclePricing.Model;
 //Use You credentials from https://developer.microbilt.com/
-//NADAVehiclePricingClient planClient = new NADAVehiclePricingClient("123", "123", EnvironmentType.Sandbox);
-NADAVehiclePricingClient planClient = new NADAVehiclePricingClient("8LpEcVXfS4P3YCOpPKrzhl81GczUASpP", "St7o6DvHBLP08f9T", EnvironmentType.Sandbox);
+NADAVehiclePricingClient planClient = new NADAVehiclePricingClient("123", "123", EnvironmentType.Sandbox);
 Console.WriteLine("*******************************************");
 Console.WriteLine("Authorization = {0}", planClient.Authorization);
 Console.WriteLine("*******************************************");
